@@ -1,0 +1,22 @@
+{
+    "name": "mg-code/yii2-queue-swiftmailer",
+    "description": "Enhances yii2-swiftmailer with ability to send messages using yii2-queue package.",
+    "keywords": ["yii2", "extension", "swiftmailer", "queue"],
+    "homepage": "https://github.com/mg-code/yii2-queue-swiftmailer",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Maris Graudins",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mgcode\\qswiftmailer\\": ""
+        }
+    }
+}
