@@ -13,7 +13,8 @@
     ],
     "require": {
         "yiisoft/yii2": ">=2.0.13",
-        "yiisoft/yii2-queue": "^2.0"
+        "yiisoft/yii2-queue": "^2.0",
+        "yiisoft/yii2-swiftmailer": "*"
     },
     "autoload": {
         "psr-4": {
